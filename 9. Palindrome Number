@@ -48,3 +48,18 @@ var isPalindrome = function(x) {
 
     return original === reversed;
 };
+
+
+/*
+Approach 3 (Using reverse() method):
+In this approach, we convert the number into a string, then use JavaScript’s built-in split(''), reverse(), and join('') methods to reverse the string. Finally, we compare the reversed string with the original string to check if it’s a palindrome. This solution is concise and easy to write, but like the basic string method, it uses extra space and is less efficient than the mathematical approach.
+*/
+
+var isPalindrome = function(x) {
+    if (x < 0) return false; // negative numbers not palindrome
+    
+    let str = x.toString();              // convert to string
+    let reversed = str.split('').reverse().join(''); // reverse string
+    
+    return str === reversed;             // check if same
+};
