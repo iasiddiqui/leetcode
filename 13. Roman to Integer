@@ -1,0 +1,31 @@
+/*
+Approach: Roman to Integer (Hash Map & Subtractive Rule)
+
+To efficiently convert a Roman numeral to an integer, we store all Roman symbols and their values in a hash map. We iterate through the string, comparing each symbol with the next one. If the current symbol’s value is smaller than the next, it follows the subtractive rule (e.g., IV = 4, IX = 9), so we subtract it; otherwise, we add it to the total. This approach ensures a single linear scan through the input for an optimal solution.
+
+Time Complexity: O(n) - one traversal through the string.
+Space Complexity: O(1) - constant extra space for the map.
+*/
+
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var romanToInt = function(s) {
+    const map = {
+        I: 1, V: 5, X: 10, L: 50,
+        C: 100, D: 500, M: 1000
+    };
+
+    let total = 0;
+
+    for (let i = 0; i < s.length; i++) {
+        let current = map[s[i]];
+        let next = map[s[i + 1]];
+
+        if (current < next) total -= current;
+        else total += current;
+    }
+
+    return total;
+};
