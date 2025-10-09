@@ -11,9 +11,9 @@ This repository is a collection of solutions organized by problem. Each solution
 * Solutions are organized in folders or files by problem type or number.
 * Each solution file contains:
 
-  * Problem description
-  * Solution code
-  * Explanation of the approach
+  * 📝Problem description
+  * 💻Solution code
+  * 🧩Explanation of the approach
 
 ## 🛠 Tech Stack
 
@@ -36,9 +36,10 @@ Check out my progress and solved problems: [LeetCode Profile](https://leetcode.c
 
 ## 🌟 Contributions
 
-This repository is mainly a personal collection, but contributions and suggestions are welcome!
+This repository is mainly a personal collection,
+But contributions and suggestions are always welcome 💪!
 
 
 ---
 
-Happy coding! 🖥️💡
+✨ Happy Coding! 🖥️💡�
