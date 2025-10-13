@@ -1,4 +1,4 @@
-
+/*
 
 Approach: Remove Element (Two-Pointer Technique)
 
@@ -6,6 +6,7 @@ We use two pointers — one (i) to iterate through the array and another (k) to 
 
 Time Complexity: O(n){ single traversal of the array.}
 Space Complexity: O(1){ performed in-place with no extra memory.}
+*/
 
 /**
  * @param {number[]} nums
