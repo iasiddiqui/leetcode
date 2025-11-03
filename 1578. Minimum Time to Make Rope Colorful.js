@@ -1,0 +1,35 @@
+/*
+Approach
+
+Traverse the string once.
+
+If two consecutive balloons have the same color, remove one with the smaller removal time.
+
+Add that smaller time to totalTime.
+
+Keep the larger time for the next comparison (since that balloon stays).
+
+⚙️ Complexity
+
+Time: O(n) (single pass)
+
+Space: O(1) (in-place updates only)
+*/
+
+/**
+ * @param {string} colors
+ * @param {number[]} neededTime
+ * @return {number}
+ */
+var minCost = function(colors, neededTime) {
+    let totalTime = 0;
+    
+    for (let i = 1; i < colors.length; i++) {
+        if (colors[i] === colors[i - 1]) {
+            totalTime += Math.min(neededTime[i], neededTime[i - 1]);
+            neededTime[i] = Math.max(neededTime[i], neededTime[i - 1]); 
+        }
+    }
+    
+    return totalTime;
+};
