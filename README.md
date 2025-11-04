@@ -11,7 +11,7 @@ This repository is a collection of solutions organized by problem. Each solution
 * Solutions are organized in folders or files by problem type or number.
 * Each solution file contains:
 
-  * 📝Problem description
+  * 📝Problem Number with Name
   * 💻Solution code
   * 🧩Explanation of the approach
 
