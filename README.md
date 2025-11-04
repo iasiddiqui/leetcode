@@ -1,6 +1,6 @@
 # LeetCode Solutions Repository
 
-Welcome to my LeetCode Solutions repository! This repo contains my personal solutions to a variety of coding problems I have solved on [LeetCode](https://leetcode.com/u/cOxmnTOEvM/).
+Welcome to my LeetCode Solutions repository! This repo contains my personal solutions to a variety of coding problems I have solved on [LeetCode](https://leetcode.com/u/ishan-ahmad-siddiqui/).
 
 ## 🔍 Overview
 
@@ -22,7 +22,7 @@ This repository is a collection of solutions organized by problem. Each solution
 
 ## 📈 My LeetCode Profile
 
-Check out my progress and solved problems: [LeetCode Profile](https://leetcode.com/u/cOxmnTOEvM/)
+Check out my progress and solved problems: [LeetCode Profile](https://leetcode.com/u/ishan-ahmad-siddiqui/)
 
 ## 🚀 How to Use
 
